@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import scikit-learn==1.2.2
 
 # Cargar el modelo
 clf = joblib.load('model/salary_model2.pkl')
