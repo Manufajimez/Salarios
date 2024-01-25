@@ -7,7 +7,7 @@ import joblib
 
 
 # Cargar datos desde el CSV
-data = pd.read_csv('/data/salarios_nuevo.csv')
+data = pd.read_csv('data/salarios_nuevo.csv')
 
 st.title('Calcula el salario!')
 
