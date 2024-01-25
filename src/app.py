@@ -38,9 +38,9 @@ company_location_int = next(key for key, value in company_location_mapping.items
 company_size_int = next(key for key, value in company_size_mapping.items() if value == company_size)
 
 # Realizar la predicción
-X = [[job_title_int, experience_level_int, company_location_int, company_size_int]]
-prediction = clf.predict(X)
-st.text(f"El salario predicho es: {prediction}")
+# X = [[job_title_int, experience_level_int, company_location_int, company_size_int]]
+# prediction = clf.predict(X)
+# st.text(f"El salario predicho es: {prediction}")
 
 
 
