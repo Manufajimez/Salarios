@@ -43,7 +43,7 @@ if st.button('Calcular salario'):
     X = [[job_title_numeric, experience_level_numeric, company_location_numeric, company_size_numeric]]
     prediction = clf.predict(X)
     
-    st.text(f"El salario predicho es: {prediction}")
+    st.text(f"El salario predicho es: {int(prediction)}")
 
 
 
